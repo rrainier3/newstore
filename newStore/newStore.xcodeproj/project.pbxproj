@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DCD04ACAE518B93B9314455 /* Pods_newStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3495241464A74D5F5A72B3 /* Pods_newStore.framework */; };
 		4F72C1B21E88C18A0022B6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C1B11E88C18A0022B6B0 /* AppDelegate.swift */; };
 		4F72C1B41E88C18A0022B6B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C1B31E88C18A0022B6B0 /* ViewController.swift */; };
 		4F72C1B71E88C18B0022B6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F72C1B51E88C18B0022B6B0 /* Main.storyboard */; };
@@ -22,6 +23,9 @@
 		4F72C1B81E88C18B0022B6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F72C1BB1E88C18B0022B6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F72C1BD1E88C18B0022B6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FD7CC58B135E5F3143DB84 /* Pods-newStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newStore/Pods-newStore.debug.xcconfig"; sourceTree = "<group>"; };
+		7C3495241464A74D5F5A72B3 /* Pods_newStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_newStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		849CD236ADE3B5956DADB316 /* Pods-newStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-newStore/Pods-newStore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DCD04ACAE518B93B9314455 /* Pods_newStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FA2DC7E05B68BED6D258AA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FD7CC58B135E5F3143DB84 /* Pods-newStore.debug.xcconfig */,
+				849CD236ADE3B5956DADB316 /* Pods-newStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27113B8E475B57319375C882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C3495241464A74D5F5A72B3 /* Pods_newStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F72C1A51E88C1890022B6B0 = {
 			isa = PBXGroup;
 			children = (
 				4F72C1B01E88C18A0022B6B0 /* newStore */,
 				4F72C1AF1E88C18A0022B6B0 /* Products */,
+				1FA2DC7E05B68BED6D258AA1 /* Pods */,
+				27113B8E475B57319375C882 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F72C1C01E88C18B0022B6B0 /* Build configuration list for PBXNativeTarget "newStore" */;
 			buildPhases = (
+				8C5DEDCD3FF07C445D2A910E /* [CP] Check Pods Manifest.lock */,
 				4F72C1AA1E88C1890022B6B0 /* Sources */,
 				4F72C1AB1E88C1890022B6B0 /* Frameworks */,
 				4F72C1AC1E88C1890022B6B0 /* Resources */,
+				694149F83BB536CEF7DC8D1A /* [CP] Embed Pods Frameworks */,
+				DD3D4991526076752E13A179 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		694149F83BB536CEF7DC8D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newStore/Pods-newStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5DEDCD3FF07C445D2A910E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3D4991526076752E13A179 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newStore/Pods-newStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F72C1AA1E88C1890022B6B0 /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		4F72C1C11E88C18B0022B6B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FD7CC58B135E5F3143DB84 /* Pods-newStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4YLH4W88M;
@@ -270,6 +346,7 @@
 		};
 		4F72C1C21E88C18B0022B6B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849CD236ADE3B5956DADB316 /* Pods-newStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4YLH4W88M;
