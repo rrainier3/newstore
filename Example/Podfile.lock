@@ -1,16 +1,18 @@
 PODS:
-  - Segmentio (1.1.3)
+  - Money (2.0.1):
+    - ValueCoding (~> 2)
+  - Segmentio (2.1.2)
+  - ValueCoding (2.1.0)
 
 DEPENDENCIES:
-  - Segmentio (from `../`)
-
-EXTERNAL SOURCES:
-  Segmentio:
-    :path: "../"
+  - Money
+  - Segmentio (~> 2.1)
 
 SPEC CHECKSUMS:
-  Segmentio: f784171237bcbb4854f338aef8162e312f4ac5b8
+  Money: 6faa689f86c455112971c900e8a31fa0b9c02365
+  Segmentio: f85114993e305bd9c522952eef8c2c4db732fd17
+  ValueCoding: f18cd2f0c941c43e06669717ca25aeed02d702a9
 
-PODFILE CHECKSUM: 761653fe0a6001fe4076ba25b04e279672ecc970
+PODFILE CHECKSUM: 29425c0d1aff2de86446158692b27ba85a0ac526
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.1.1

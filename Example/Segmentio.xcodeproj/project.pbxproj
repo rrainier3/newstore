@@ -179,13 +179,13 @@
 		607FACD21AFB9204008FA782 /* Example for Segmentio */ = {
 			isa = PBXGroup;
 			children = (
-				32C3706A1DD9C4EC001A39CB /* Builders */,
 				327AF5A71D1ABEC100534355 /* Application */,
-				327AF5A91D1ABEC100534355 /* Extensions */,
-				327AF5AD1D1ABEC100534355 /* Helpers */,
-				327AF5AF1D1ABEC100534355 /* Models */,
-				327AF5B11D1ABEC100534355 /* Resorces */,
 				327AF5C71D1ABEC100534355 /* ViewControllers */,
+				32C3706A1DD9C4EC001A39CB /* Builders */,
+				327AF5AF1D1ABEC100534355 /* Models */,
+				327AF5AD1D1ABEC100534355 /* Helpers */,
+				327AF5A91D1ABEC100534355 /* Extensions */,
+				327AF5B11D1ABEC100534355 /* Resorces */,
 				327AF5C21D1ABEC100534355 /* Storyboards */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
