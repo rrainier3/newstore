@@ -25,6 +25,10 @@
 		327AF5EB1D1ABEC100534355 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5CC1D1ABEC100534355 /* SideMenuViewController.swift */; };
 		327AF6041D1AC0FE00534355 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF6031D1AC0FE00534355 /* ColorPalette.swift */; };
 		32C3706C1DD9C4FA001A39CB /* SegmentioBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3706B1DD9C4FA001A39CB /* SegmentioBuilder.swift */; };
+		4FEF92DD1E89B15800A6B6BB /* StubContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92DC1E89B15800A6B6BB /* StubContentViewController.swift */; };
+		4FEF92DF1E89B24100A6B6BB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92DE1E89B24100A6B6BB /* Product.swift */; };
+		4FEF92E11E89B26E00A6B6BB /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E01E89B26E00A6B6BB /* Basket.swift */; };
+		4FEF92E31E89B30700A6B6BB /* StubControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E21E89B30700A6B6BB /* StubControllersProvider.swift */; };
 		5B9491B14F42A77448746E9B /* Pods_Segmentio_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E8553D39ECFE4883F1D2CA /* Pods_Segmentio_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,10 @@
 		327AF6031D1AC0FE00534355 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		32C3706B1DD9C4FA001A39CB /* SegmentioBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioBuilder.swift; sourceTree = "<group>"; };
 		32C3A9241D2BB3B5004C0FC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4FEF92DC1E89B15800A6B6BB /* StubContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubContentViewController.swift; sourceTree = "<group>"; };
+		4FEF92DE1E89B24100A6B6BB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4FEF92E01E89B26E00A6B6BB /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		4FEF92E21E89B30700A6B6BB /* StubControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubControllersProvider.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Segmentio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segmentio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E8553D39ECFE4883F1D2CA /* Pods_Segmentio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segmentio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +102,7 @@
 		327AF5AD1D1ABEC100534355 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4FEF92E21E89B30700A6B6BB /* StubControllersProvider.swift */,
 				327AF5AE1D1ABEC100534355 /* AppearanceConfigurator.swift */,
 			);
 			path = Helpers;
@@ -103,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				327AF5B01D1ABEC100534355 /* Disaster.swift */,
+				4FEF92DE1E89B24100A6B6BB /* Product.swift */,
+				4FEF92E01E89B26E00A6B6BB /* Basket.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -130,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				327AF5CB1D1ABEC100534355 /* HomeViewController.swift */,
+				4FEF92DC1E89B15800A6B6BB /* StubContentViewController.swift */,
 				327AF5CC1D1ABEC100534355 /* SideMenuViewController.swift */,
 				327AF5C91D1ABEC100534355 /* EmbedContainerViewController.swift */,
 				327AF5CA1D1ABEC100534355 /* ExampleViewController.swift */,
@@ -346,8 +358,10 @@
 				324015CC1D22C0ED0096E353 /* Hints.swift in Sources */,
 				327AF5E71D1ABEC100534355 /* ContentViewController.swift in Sources */,
 				327AF5CF1D1ABEC100534355 /* AppDelegate.swift in Sources */,
+				4FEF92E31E89B30700A6B6BB /* StubControllersProvider.swift in Sources */,
 				327AF5EB1D1ABEC100534355 /* SideMenuViewController.swift in Sources */,
 				327AF5E81D1ABEC100534355 /* EmbedContainerViewController.swift in Sources */,
+				4FEF92DF1E89B24100A6B6BB /* Product.swift in Sources */,
 				32C3706C1DD9C4FA001A39CB /* SegmentioBuilder.swift in Sources */,
 				327AF5D41D1ABEC100534355 /* Disaster.swift in Sources */,
 				327AF5D31D1ABEC100534355 /* AppearanceConfigurator.swift in Sources */,
@@ -356,6 +370,8 @@
 				327AF5D01D1ABEC100534355 /* UIColor+RGB.swift in Sources */,
 				324015CE1D22D40A0096E353 /* UIFont+ExampleFonts.swift in Sources */,
 				327AF5E91D1ABEC100534355 /* ExampleViewController.swift in Sources */,
+				4FEF92DD1E89B15800A6B6BB /* StubContentViewController.swift in Sources */,
+				4FEF92E11E89B26E00A6B6BB /* Basket.swift in Sources */,
 				324015D01D22FCD50096E353 /* String+Convenience.swift in Sources */,
 				327AF6041D1AC0FE00534355 /* ColorPalette.swift in Sources */,
 			);

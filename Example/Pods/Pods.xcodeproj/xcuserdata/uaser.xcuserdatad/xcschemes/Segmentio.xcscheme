@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2B26F5D25D624F2EAF22CCBC9E331D68'
+               BlueprintIdentifier = 'D2A1CB9AF7B54468CD4E4BD3F4F08966'
                BlueprintName = 'Segmentio'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Segmentio.framework'>

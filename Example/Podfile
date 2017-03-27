@@ -9,7 +9,7 @@ platform :ios, '9.0'
   use_frameworks!
 
 # Pods for newStore
-#  pod 'ColorMatchTabs', '~> 2.0'
+  pod 'ColorMatchTabs', '~> 2.0'
   pod 'Money'
   pod 'Segmentio', '~> 2.1'
 end

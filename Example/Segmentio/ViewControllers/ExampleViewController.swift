@@ -46,7 +46,8 @@ class ExampleViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        setupScrollView()
+        
+        //setupScrollView()
         
         SegmentioBuilder.buildSegmentioView(
             segmentioView: segmentioView,

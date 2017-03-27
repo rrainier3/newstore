@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ColorMatchTabs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Money.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>06C3B6B3E53B734742F81AB350DBA7CB</key>
+		<key>4F9B6C35960F0D346F90BDE782C721EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2B26F5D25D624F2EAF22CCBC9E331D68</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5E4B9FF60838DAAC1ACF8986425F7027</key>
+		<key>54E577A05CFFFD7C0720587671E695F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>D2A1CB9AF7B54468CD4E4BD3F4F08966</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E6E55CA43FB5A565FB45A242B26346F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F92DB32C184D16E1BCE31225C1E4CD61</key>
 		<dict>
 			<key>primary</key>
 			<true/>
