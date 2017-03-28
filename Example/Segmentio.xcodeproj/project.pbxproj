@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		324015CC1D22C0ED0096E353 /* Hints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324015CB1D22C0ED0096E353 /* Hints.swift */; };
-		324015CE1D22D40A0096E353 /* UIFont+ExampleFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324015CD1D22D40A0096E353 /* UIFont+ExampleFonts.swift */; };
 		324015D01D22FCD50096E353 /* String+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324015CF1D22FCD50096E353 /* String+Convenience.swift */; };
 		327AF5CF1D1ABEC100534355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5A81D1ABEC100534355 /* AppDelegate.swift */; };
-		327AF5D01D1ABEC100534355 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5AA1D1ABEC100534355 /* UIColor+RGB.swift */; };
 		327AF5D21D1ABEC100534355 /* UINavigationBar+Flat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5AC1D1ABEC100534355 /* UINavigationBar+Flat.swift */; };
 		327AF5D31D1ABEC100534355 /* AppearanceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5AE1D1ABEC100534355 /* AppearanceConfigurator.swift */; };
 		327AF5D41D1ABEC100534355 /* Disaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327AF5B01D1ABEC100534355 /* Disaster.swift */; };
@@ -29,6 +27,17 @@
 		4FEF92DF1E89B24100A6B6BB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92DE1E89B24100A6B6BB /* Product.swift */; };
 		4FEF92E11E89B26E00A6B6BB /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E01E89B26E00A6B6BB /* Basket.swift */; };
 		4FEF92E31E89B30700A6B6BB /* StubControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E21E89B30700A6B6BB /* StubControllersProvider.swift */; };
+		4FEF92E61E89B72400A6B6BB /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E51E89B72400A6B6BB /* ProductTableViewCell.swift */; };
+		4FEF92E81E89B85F00A6B6BB /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E71E89B85F00A6B6BB /* BasketViewController.swift */; };
+		4FEF92EA1E89B8AD00A6B6BB /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92E91E89B8AD00A6B6BB /* BasketTableViewCell.swift */; };
+		4FEF92EC1E89B91A00A6B6BB /* ProductItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92EB1E89B91A00A6B6BB /* ProductItemsProvider.swift */; };
+		4FEF92EE1E89B9DC00A6B6BB /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92ED1E89B9DC00A6B6BB /* ProductViewController.swift */; };
+		4FEF92F01E89BA2700A6B6BB /* ProductViewController+Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92EF1E89BA2700A6B6BB /* ProductViewController+Handlers.swift */; };
+		4FEF92F21E89BB7200A6B6BB /* UIFont+Zeplin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92F11E89BB7200A6B6BB /* UIFont+Zeplin.swift */; };
+		4FEF92F41E89BBB800A6B6BB /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92F31E89BBB800A6B6BB /* TTSegmentedControl.swift */; };
+		4FEF92F61E89BC0600A6B6BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92F51E89BC0600A6B6BB /* Extensions.swift */; };
+		4FEF93001E89C4CC00A6B6BB /* GIBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEF92FE1E89C4CC00A6B6BB /* GIBadgeView.m */; };
+		4FEF93021E89D05700A6B6BB /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEF93011E89D05700A6B6BB /* ProductTableViewCell.xib */; };
 		5B9491B14F42A77448746E9B /* Pods_Segmentio_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E8553D39ECFE4883F1D2CA /* Pods_Segmentio_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,11 +46,9 @@
 		1667ACAF5594F75E244C8E1B /* Pods-Segmentio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segmentio_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Segmentio_Example/Pods-Segmentio_Example.release.xcconfig"; sourceTree = "<group>"; };
 		183F56A87F22C4DF4AB3CDCB /* Pods_Segmentio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segmentio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F629976269F20B0601D695D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		324015CB1D22C0ED0096E353 /* Hints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hints.swift; sourceTree = "<group>"; };
-		324015CD1D22D40A0096E353 /* UIFont+ExampleFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+ExampleFonts.swift"; sourceTree = "<group>"; };
+		324015CB1D22C0ED0096E353 /* Hints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hints.swift; path = ../Resorces/Hints.swift; sourceTree = "<group>"; };
 		324015CF1D22FCD50096E353 /* String+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Convenience.swift"; sourceTree = "<group>"; };
 		327AF5A81D1ABEC100534355 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		327AF5AA1D1ABEC100534355 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		327AF5AC1D1ABEC100534355 /* UINavigationBar+Flat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Flat.swift"; sourceTree = "<group>"; };
 		327AF5AE1D1ABEC100534355 /* AppearanceConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceConfigurator.swift; sourceTree = "<group>"; };
 		327AF5B01D1ABEC100534355 /* Disaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disaster.swift; sourceTree = "<group>"; };
@@ -53,13 +60,31 @@
 		327AF5CA1D1ABEC100534355 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		327AF5CB1D1ABEC100534355 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		327AF5CC1D1ABEC100534355 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
-		327AF6031D1AC0FE00534355 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		327AF6031D1AC0FE00534355 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorPalette.swift; path = ../Resorces/ColorPalette.swift; sourceTree = "<group>"; };
 		32C3706B1DD9C4FA001A39CB /* SegmentioBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentioBuilder.swift; sourceTree = "<group>"; };
 		32C3A9241D2BB3B5004C0FC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4FEF92DC1E89B15800A6B6BB /* StubContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubContentViewController.swift; sourceTree = "<group>"; };
 		4FEF92DE1E89B24100A6B6BB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		4FEF92E01E89B26E00A6B6BB /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
 		4FEF92E21E89B30700A6B6BB /* StubControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubControllersProvider.swift; sourceTree = "<group>"; };
+		4FEF92E51E89B72400A6B6BB /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		4FEF92E71E89B85F00A6B6BB /* BasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		4FEF92E91E89B8AD00A6B6BB /* BasketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		4FEF92EB1E89B91A00A6B6BB /* ProductItemsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductItemsProvider.swift; sourceTree = "<group>"; };
+		4FEF92ED1E89B9DC00A6B6BB /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		4FEF92EF1E89BA2700A6B6BB /* ProductViewController+Handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductViewController+Handlers.swift"; sourceTree = "<group>"; };
+		4FEF92F11E89BB7200A6B6BB /* UIFont+Zeplin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Zeplin.swift"; sourceTree = "<group>"; };
+		4FEF92F31E89BBB800A6B6BB /* TTSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSegmentedControl.swift; sourceTree = "<group>"; };
+		4FEF92F51E89BC0600A6B6BB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4FEF92F81E89BC7300A6B6BB /* GothamProBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBlack.ttf; sourceTree = "<group>"; };
+		4FEF92F91E89BC8200A6B6BB /* GothamProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProBold.ttf; sourceTree = "<group>"; };
+		4FEF92FA1E89BC8200A6B6BB /* GothamProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProMedium.ttf; sourceTree = "<group>"; };
+		4FEF92FB1E89BC8200A6B6BB /* GothamProRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamProRegular.ttf; sourceTree = "<group>"; };
+		4FEF92FC1E89C4CB00A6B6BB /* Segmentio_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Segmentio_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FEF92FD1E89C4CC00A6B6BB /* GIBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIBadgeView.h; sourceTree = "<group>"; };
+		4FEF92FE1E89C4CC00A6B6BB /* GIBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIBadgeView.m; sourceTree = "<group>"; };
+		4FEF92FF1E89C4CC00A6B6BB /* GIBadgeViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIBadgeViewHeader.h; sourceTree = "<group>"; };
+		4FEF93011E89D05700A6B6BB /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Segmentio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segmentio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74E8553D39ECFE4883F1D2CA /* Pods_Segmentio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Segmentio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,10 +116,12 @@
 		327AF5A91D1ABEC100534355 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				327AF5AA1D1ABEC100534355 /* UIColor+RGB.swift */,
+				327AF6031D1AC0FE00534355 /* ColorPalette.swift */,
+				4FEF92F31E89BBB800A6B6BB /* TTSegmentedControl.swift */,
+				4FEF92F51E89BC0600A6B6BB /* Extensions.swift */,
 				327AF5AC1D1ABEC100534355 /* UINavigationBar+Flat.swift */,
-				324015CD1D22D40A0096E353 /* UIFont+ExampleFonts.swift */,
 				324015CF1D22FCD50096E353 /* String+Convenience.swift */,
+				4FEF92F11E89BB7200A6B6BB /* UIFont+Zeplin.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -112,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				327AF5B01D1ABEC100534355 /* Disaster.swift */,
+				324015CB1D22C0ED0096E353 /* Hints.swift */,
+				4FEF92EB1E89B91A00A6B6BB /* ProductItemsProvider.swift */,
 				4FEF92DE1E89B24100A6B6BB /* Product.swift */,
 				4FEF92E01E89B26E00A6B6BB /* Basket.swift */,
 			);
@@ -122,8 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				327AF5B21D1ABEC100534355 /* Assets.xcassets */,
-				327AF6031D1AC0FE00534355 /* ColorPalette.swift */,
-				324015CB1D22C0ED0096E353 /* Hints.swift */,
+				4FEF92F71E89BC5C00A6B6BB /* Fonts */,
 			);
 			path = Resorces;
 			sourceTree = "<group>";
@@ -141,11 +169,14 @@
 			isa = PBXGroup;
 			children = (
 				327AF5CB1D1ABEC100534355 /* HomeViewController.swift */,
-				4FEF92DC1E89B15800A6B6BB /* StubContentViewController.swift */,
 				327AF5CC1D1ABEC100534355 /* SideMenuViewController.swift */,
 				327AF5C91D1ABEC100534355 /* EmbedContainerViewController.swift */,
 				327AF5CA1D1ABEC100534355 /* ExampleViewController.swift */,
 				327AF5C81D1ABEC100534355 /* ContentViewController.swift */,
+				4FEF92ED1E89B9DC00A6B6BB /* ProductViewController.swift */,
+				4FEF92EF1E89BA2700A6B6BB /* ProductViewController+Handlers.swift */,
+				4FEF92E71E89B85F00A6B6BB /* BasketViewController.swift */,
+				4FEF92DC1E89B15800A6B6BB /* StubContentViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -167,6 +198,27 @@
 				A0AD385168FB82ECC038D54D /* Pods-Segmentio_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FEF92E41E89B6D400A6B6BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FEF92E91E89B8AD00A6B6BB /* BasketTableViewCell.swift */,
+				4FEF92E51E89B72400A6B6BB /* ProductTableViewCell.swift */,
+				4FEF93011E89D05700A6B6BB /* ProductTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4FEF92F71E89BC5C00A6B6BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4FEF92F91E89BC8200A6B6BB /* GothamProBold.ttf */,
+				4FEF92FA1E89BC8200A6B6BB /* GothamProMedium.ttf */,
+				4FEF92FB1E89BC8200A6B6BB /* GothamProRegular.ttf */,
+				4FEF92F81E89BC7300A6B6BB /* GothamProBlack.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -191,15 +243,20 @@
 		607FACD21AFB9204008FA782 /* Example for Segmentio */ = {
 			isa = PBXGroup;
 			children = (
+				4FEF92FD1E89C4CC00A6B6BB /* GIBadgeView.h */,
+				4FEF92FE1E89C4CC00A6B6BB /* GIBadgeView.m */,
+				4FEF92FF1E89C4CC00A6B6BB /* GIBadgeViewHeader.h */,
+				32C3706A1DD9C4EC001A39CB /* Builders */,
+				4FEF92E41E89B6D400A6B6BB /* Views */,
 				327AF5A71D1ABEC100534355 /* Application */,
 				327AF5C71D1ABEC100534355 /* ViewControllers */,
-				32C3706A1DD9C4EC001A39CB /* Builders */,
 				327AF5AF1D1ABEC100534355 /* Models */,
 				327AF5AD1D1ABEC100534355 /* Helpers */,
 				327AF5A91D1ABEC100534355 /* Extensions */,
 				327AF5B11D1ABEC100534355 /* Resorces */,
 				327AF5C21D1ABEC100534355 /* Storyboards */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				4FEF92FC1E89C4CB00A6B6BB /* Segmentio_Example-Bridging-Header.h */,
 			);
 			name = "Example for Segmentio";
 			path = Segmentio;
@@ -267,7 +324,9 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0800;
+						DevelopmentTeam = Y4YLH4W88M;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -294,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEF93021E89D05700A6B6BB /* ProductTableViewCell.xib in Resources */,
 				327AF5D51D1ABEC100534355 /* Assets.xcassets in Resources */,
 				327AF5E51D1ABEC100534355 /* Main.storyboard in Resources */,
 				327AF5E41D1ABEC100534355 /* LaunchScreen.storyboard in Resources */,
@@ -361,19 +421,27 @@
 				4FEF92E31E89B30700A6B6BB /* StubControllersProvider.swift in Sources */,
 				327AF5EB1D1ABEC100534355 /* SideMenuViewController.swift in Sources */,
 				327AF5E81D1ABEC100534355 /* EmbedContainerViewController.swift in Sources */,
+				4FEF92EE1E89B9DC00A6B6BB /* ProductViewController.swift in Sources */,
 				4FEF92DF1E89B24100A6B6BB /* Product.swift in Sources */,
 				32C3706C1DD9C4FA001A39CB /* SegmentioBuilder.swift in Sources */,
 				327AF5D41D1ABEC100534355 /* Disaster.swift in Sources */,
+				4FEF92E81E89B85F00A6B6BB /* BasketViewController.swift in Sources */,
 				327AF5D31D1ABEC100534355 /* AppearanceConfigurator.swift in Sources */,
 				327AF5EA1D1ABEC100534355 /* HomeViewController.swift in Sources */,
+				4FEF93001E89C4CC00A6B6BB /* GIBadgeView.m in Sources */,
 				327AF5D21D1ABEC100534355 /* UINavigationBar+Flat.swift in Sources */,
-				327AF5D01D1ABEC100534355 /* UIColor+RGB.swift in Sources */,
-				324015CE1D22D40A0096E353 /* UIFont+ExampleFonts.swift in Sources */,
+				4FEF92F21E89BB7200A6B6BB /* UIFont+Zeplin.swift in Sources */,
+				4FEF92F41E89BBB800A6B6BB /* TTSegmentedControl.swift in Sources */,
 				327AF5E91D1ABEC100534355 /* ExampleViewController.swift in Sources */,
+				4FEF92EC1E89B91A00A6B6BB /* ProductItemsProvider.swift in Sources */,
+				4FEF92F01E89BA2700A6B6BB /* ProductViewController+Handlers.swift in Sources */,
 				4FEF92DD1E89B15800A6B6BB /* StubContentViewController.swift in Sources */,
 				4FEF92E11E89B26E00A6B6BB /* Basket.swift in Sources */,
+				4FEF92E61E89B72400A6B6BB /* ProductTableViewCell.swift in Sources */,
+				4FEF92EA1E89B8AD00A6B6BB /* BasketTableViewCell.swift in Sources */,
 				324015D01D22FCD50096E353 /* String+Convenience.swift in Sources */,
 				327AF6041D1AC0FE00534355 /* ColorPalette.swift in Sources */,
+				4FEF92F61E89BC0600A6B6BB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,18 +541,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y4YLH4W88M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Segmentio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Segmentio/Segmentio_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,19 +569,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y4YLH4W88M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Segmentio/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Segmentio/Segmentio_Example-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

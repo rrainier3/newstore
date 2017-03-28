@@ -9,6 +9,8 @@
 import UIKit
 import Segmentio
 
+var refTintColor: UIColor = UIColor.gray
+
 class ExampleViewController: UIViewController {
     
     var segmentioStyle = SegmentioStyle.imageOverLabel
@@ -19,7 +21,9 @@ class ExampleViewController: UIViewController {
     @IBOutlet fileprivate weak var scrollView: UIScrollView!
     
     fileprivate lazy var viewControllers: [UIViewController] = {
-        return self.preparedViewControllers()
+        //        return self.preparedViewControllers()
+        return self.productViewControllers()
+        
     }()
     
     // MARK: - Init
@@ -47,7 +51,7 @@ class ExampleViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        //setupScrollView()
+        setupScrollView()
         
         SegmentioBuilder.buildSegmentioView(
             segmentioView: segmentioView,
@@ -66,6 +70,33 @@ class ExampleViewController: UIViewController {
                 )
             }
         }
+    }
+    // Product viewControllers
+    fileprivate func productViewControllers() -> [UIViewController] {
+        let productsViewController = StubContentViewController()
+        productsViewController.type = .products
+        
+        let venuesViewController = StubContentViewController()
+        venuesViewController.type = .venues
+        
+        let reviewsViewController = StubContentViewController()
+        reviewsViewController.type = .reviews
+        
+        let usersViewController = StubContentViewController()
+        usersViewController.type = .users
+        
+        /*
+         demo: here we hijack the users-link to not render the UITableView
+         
+         and present a different UIViewController named: BlankViewController
+         
+         
+         let usersViewController = BlankViewController()
+         */
+        
+        
+        return [productsViewController, venuesViewController, reviewsViewController, usersViewController]
+        
     }
     
     // Example viewControllers

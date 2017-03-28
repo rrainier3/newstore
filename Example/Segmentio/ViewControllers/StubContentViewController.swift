@@ -55,7 +55,7 @@ class StubContentViewController: UITableViewController, ChangeViewProtocol {
         tableView.backgroundColor = UIColor.clear
         tableView.allowsSelection = false
         tableView.separatorColor = UIColor.clear
-        tableView.register(UINib(nibName: "ExampleTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        tableView.register(UINib(nibName: "ProductTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -63,7 +63,7 @@ class StubContentViewController: UITableViewController, ChangeViewProtocol {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ExampleTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ProductTableViewCell
         
         var image: UIImage!
         
@@ -87,7 +87,7 @@ class StubContentViewController: UITableViewController, ChangeViewProtocol {
     // implement ChangeViewProtocol method
     func loadNewScreen(controller: UIViewController) {
         
-        let destViewController = BlankViewController()
+        let destViewController = ProductViewController()
         destViewController.product = self.product		// indexPath unreliable here
         
         let navController = UINavigationController(rootViewController: destViewController)
