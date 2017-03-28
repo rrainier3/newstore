@@ -156,7 +156,8 @@ extension ProductViewController {
         
         self.title = "StoreItem"
         
-        let uiFont = UIFont.navigationTitleFont()!
+        //let uiFont = UIFont.navigationTitleFont()!
+        let uiFont = UIFont.exampleAvenirMedium(ofSize: 18.0)
         let uiColor = refTintColor
         let titleAttributes = [NSFontAttributeName: uiFont as UIFont, NSForegroundColorAttributeName: uiColor as UIColor]
         self.navigationController?.navigationBar.titleTextAttributes = titleAttributes

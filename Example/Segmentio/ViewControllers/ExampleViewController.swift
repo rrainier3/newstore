@@ -9,7 +9,7 @@
 import UIKit
 import Segmentio
 
-var refTintColor: UIColor = UIColor.gray
+var refTintColor: UIColor = UIColor.brown
 
 class ExampleViewController: UIViewController {
     
